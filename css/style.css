@@ -1,0 +1,274 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.container {
+    width: 1170px;
+    margin: auto;
+}
+
+
+/* header styling*/
+
+
+/*Nav bar style*/
+
+.header .navbar {
+    background-color: black;
+    color: white;
+    max-height: 60px;
+}
+
+.header .navbar h2 {
+    float: right;
+}
+
+.header .navbar h2 Span {
+    color: darkblue
+}
+
+.header .navbar ul {
+    list-style: none;
+    padding-left: 0;
+    overflow: hidden;
+    float: right;
+}
+
+.header .navbar ul li {
+    float: left;
+    padding: 10px;
+}
+
+.header .navbar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.header .navbar ul li a:hover {
+    color: darkblue;
+}
+
+.header .navbar ul li.active a:hover {
+    color: darkblue;
+}
+
+
+/* slider styling*/
+
+.header .slider {
+    background-image: url('../images/slider3.jpg');
+    height: 600px;
+    /*css3*/
+    background-size: cover;
+}
+
+.header .slider .intro {
+    text-align: center;
+    padding-top: 250px;
+}
+
+.header .slider .intro h2 {
+    margin: 0 auto;
+    font-size: 50px;
+    width: 50%;
+    color: antiquewhite;
+    border-top: 3px solid;
+    border-bottom: 3px solid;
+    padding: 5px 0;
+    margin-bottom: 20px
+}
+
+.header .slider .intro button {
+    background: none;
+    margin: 20px auto;
+    padding: 5px 0;
+    font-size: 20px;
+    border: 3px solid #ffff;
+    color: white;
+    padding: 10px 30px;
+}
+
+
+/* syling of features section...*/
+
+.features {
+    overflow: hidden;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.features .element {
+    float: left;
+    width: 33.333333%;
+    padding-left: 5 px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.features .element h2 {
+    color: #555
+}
+
+.features .element p {
+    line-height: 1.7;
+    color: #888;
+    text-align: justify;
+    padding: 0 30px 0 0
+}
+
+
+/* About Me section styling*/
+
+.aboutme {
+    background-color: #F2F2F2;
+    overflow: hidden;
+}
+
+.aboutme .imag {
+    width: 40%;
+    float: left
+}
+
+.aboutme .imag img {
+    width: 100%;
+    padding-top: 35px
+}
+
+.aboutme .info {
+    float: left;
+    text-align: left;
+    width: 60%;
+}
+
+.aboutme .info h2 {
+    margin: 40px 0 20px 40px;
+    color: #555;
+}
+
+.aboutme .info>p {
+    margin: 0 0 10px 40px;
+}
+
+.aboutme .info>p:last-of-type {
+    margin-top: 25px;
+}
+
+.aboutme .info p {
+    line-height: 1.7;
+    color: #333
+}
+
+.aboutme .info .hobbies {
+    overflow: hidden;
+    margin: 20px 0 0 40px;
+}
+
+.aboutme .info .hobbies>div {
+    float: left;
+    width: 50%;
+    min-height: 100px;
+}
+
+.aboutme .info .hobbies h3 {
+    color: #555
+}
+
+
+/* my skills section styling*/
+
+.myskills {
+    overflow: hidden;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.myskills .skills,
+.myskills .Progress {
+    float: left;
+    overflow: hidden;
+    width: 50%;
+}
+
+
+/* Resume section styling*/
+
+.resume {
+    background-color: #F2F2F2;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+
+/* my workexp section styling*/
+
+.workexp {
+    overflow: hidden;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.myeducation .workexp,
+.myeducation .wexp {
+    float: left;
+    overflow: hidden;
+    width: 50%;
+}
+
+
+/*Testemonials section styling*/
+
+.testemonials {
+    background-color: #F2F2F2;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+
+/*PORTFOLIO section styling*/
+
+.portfolio {
+    overflow: hidden;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.portfolio .works>div {
+    float: left;
+    width: 33.33333333%;
+    margin-bottom: 33px;
+}
+
+
+/*contacts section styling*/
+
+.contactme {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    background-color: #252F31;
+    overflow: hidden;
+}
+
+.contactme .contactinfo,
+.contactme .contactform {
+    float: left;
+    width: 50%;
+    color: white
+}
+
+
+/*footer section styling*/
+
+.footer {
+    background-color: #252F31;
+    color: wheat;
+    padding: 20px 0;
+    text-align: center;
+}
